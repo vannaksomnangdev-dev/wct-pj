@@ -1,0 +1,24 @@
+.section{
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius: 10px;
+      height: 100vh;
+      
+}
+
+#Home{
+    margin: 5%;
+    padding: 20%;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.coming-soon-container {
+    z-index: 1;
+}
+
+/* Enforce layer properties and block clicks on underlying layout components */
+.overlay-mask {
+    z-index: 2;
+    pointer-events: auto; /* Intercepts direct clicks to protect actions below */
+}
